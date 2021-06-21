@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestResponseLoggingMiddleware", "RequestResponseLoggingMiddleware\RequestResponseLoggingMiddleware.csproj", "{BC1A4C69-20BC-4878-87BD-C3FA189C97C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1A4C69-20BC-4878-87BD-C3FA189C97C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1A4C69-20BC-4878-87BD-C3FA189C97C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1A4C69-20BC-4878-87BD-C3FA189C97C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1A4C69-20BC-4878-87BD-C3FA189C97C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3181A46E-098B-44E8-97B7-DDEA1C37F7EF}
+	EndGlobalSection
+EndGlobal

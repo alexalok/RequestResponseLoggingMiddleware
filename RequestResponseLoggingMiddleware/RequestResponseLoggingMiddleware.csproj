@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageId>AspNetCore.RequestResponseLoggingMiddleware</PackageId>
+    <Authors>alexalok</Authors>
+    <Description>Middleware that allows for logging of requests and responses in ASP.NET Core.</Description>
+    <Copyright>(c) alexalok 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/alexalok/RequestResponseLoggingMiddleware</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alexalok/RequestResponseLoggingMiddleware</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>asp.net core, request logging, response logging</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>
